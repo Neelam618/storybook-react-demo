@@ -8,10 +8,11 @@ export default {
     args: {
         variant: 'contained'
     },
-    // argTypes: {
-    //     color: {control: 'text'},
-    //     children: {control: 'text'}
-    // }
+    argTypes: {
+        // color: {control: 'text'},
+        // children: {control: 'text'}
+        onClick: {action: 'clicked'}
+    }
 }
 
 // export const Primary = () => <Button variant="contained" color ='primary'>Primary</Button>
