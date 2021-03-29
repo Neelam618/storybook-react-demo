@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from './Button';
-import Center from '../Center/Center';
+// import Center from '../Center/Center';
 
 export default {
     title: 'Form/Button',
@@ -8,7 +8,7 @@ export default {
     args: {
         children: 'Button'
     },
-    decorators: [story => <Center>{story()}</Center>]
+    // decorators: [story => <Center>{story()}</Center>]
 }
 
 // Stories: first approach
