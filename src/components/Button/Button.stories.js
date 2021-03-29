@@ -7,8 +7,8 @@ export default {
     component: Button,
     args: {
         children: 'Button'
-    }
-    decorators: [story => <Center>{story}</Center>]
+    },
+    decorators: [story => <Center>{story()}</Center>]
 }
 
 // Stories: first approach
