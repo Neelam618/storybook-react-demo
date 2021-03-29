@@ -5,7 +5,7 @@ import './Input.css';
 function Input(props) {
     const {size = 'medium', ...rest} = props
     return (
-        <Input className={`input ${size}`} {...rest} />
+        <input className={`input ${size}`} {...rest} />
     )
 }
 
