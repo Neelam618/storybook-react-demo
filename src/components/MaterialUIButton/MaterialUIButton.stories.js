@@ -7,7 +7,11 @@ export default {
     component: Button,
     args: {
         variant: 'contained'
-    }
+    },
+    // argTypes: {
+    //     color: {control: 'text'},
+    //     children: {control: 'text'}
+    // }
 }
 
 // export const Primary = () => <Button variant="contained" color ='primary'>Primary</Button>
