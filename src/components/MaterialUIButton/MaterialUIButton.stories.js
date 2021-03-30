@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button } from '@material-ui/core';
+import {action, actions} from '@storybook/addon-actions';
 
 
 export default {
@@ -11,7 +12,8 @@ export default {
     argTypes: {
         // color: {control: 'text'},
         // children: {control: 'text'}
-        onClick: {action: 'clicked'}
+        onClick: {action: 'clicked'},
+        onMouseOver: {action: 'mouse over'}
     }
 }
 
